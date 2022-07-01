@@ -5,11 +5,11 @@ int main (){
     int n,i,temp,score=0;
     cin>>n;
     for(i=0;i<n;i++){
-        cin>>temp;
+        scanf("%d",&temp);
         x.push(temp);
     }
     for(i=0;i<n;i++){
-        cin>>temp;
+        scanf("%d",&temp);
         y.push(temp);
     }
     while(y.size()>0){
@@ -20,7 +20,6 @@ int main (){
         }
         else if(y.front()==x.front()){
             y.pop();
-            x.pop();
         }
         else{
             y.pop();

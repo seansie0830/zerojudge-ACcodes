@@ -20,7 +20,6 @@ int main (){
         temp=temp-b1*b3*b2;
     }
     cout<<temp+b1*b2*b3<<endl;
-    cin>>b3;
 
     return 0;
 }
