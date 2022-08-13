@@ -1,20 +1,18 @@
-// 搬運
-#include <iostream>
+// AC (21ms, 340KB)
+#include<bits/stdc++.h>
 using namespace std;
-
-int ways[7490] = { 1 };
-
-void Initialize() {
-	int changes[5] = { 1, 5, 10, 25, 50 };
-	for (int i = 0; i < 5; ++i)
-		for (int j = changes[i]; j < 7490; ++j)
-			ways[j] += ways[j - changes[i]];
-}
-
-int main() {
-	cin.sync_with_stdio(false); cin.tie(nullptr);
-	Initialize();
-	int money;
-	while (cin >> money)
-		cout << ways[money] << '\n';
+int main(){
+    int n;
+    int table[7500]={0};
+    table[0]=1;
+    int i,j,coin[5]={1,5,10,25,50};
+    for(i=0;i<5;i++){
+        for(j=coin[i];j<7500;j++){
+            
+        }
+    }
+    while(cin>>n){
+        cout<<table[n]<<endl;
+    }
+    return 0;
 }
