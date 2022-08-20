@@ -1,5 +1,5 @@
 #include<bits/stdc++.h>
-#define debug 1
+#define debug 0
 using namespace std;
 int main()  {
     int n;
