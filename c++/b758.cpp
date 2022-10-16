@@ -8,6 +8,7 @@ int main()  {
         x++;
     }
     x=x+2;
-    cout<<x<<" "<<setw(2)<<setfill('0')<<y<<endl;
+    x=x%24;
+    cout<<setw(2)<<setfill('0')<<x<<":"<<setw(2)<<setfill('0')<<y<<endl;
     return 0;
 }
